@@ -26,6 +26,6 @@ fi
 #curl -u o.F6iN9x3T5spuMqBgaIbKCcuWDAxk1DFj: https://api.pushbullet.com/v2/pushes -d type=note -d title="Raspberry Pi" -d body='Raspberry Pi is Up!'
 #curl -u 'o.F6iN9x3T5spuMqBgaIbKCcuWDAxk1DFj': https://api.pushbullet.com/v2/pushes -d type=note -d title="Raspberry Pi" -d body='Raspberry Pi is Up!'
 #curl -u o.C0btIVbvPAyd9n0cagmEKJiMrbfc4CDB: https://api.pushbullet.com/v2/pushes -d type=note -d title="Raspberry Pi" -d body='Raspberry Pi is Up!'
-#sudo bash -c '/home/pi/Desktop/test_outside.py > /home/pi/test_outside.log 2>&1' &
+sudo bash -c '/home/pi/Desktop/test_outside.py > /home/pi/test_outside.log 2>&1' &
 #sudo bash -c '/home/pi/Desktop/record_periods.py > /home/pi/record_periods.log 2>&1' &
 exit 0
